@@ -1,5 +1,5 @@
 +++
-title = 'The AI Showdown of 2023: Google Unveils Gemini to Challenge GPT-4 Dominance'
+title = 'The AI Showdown of 2024: Google Unveils Gemini to Challenge GPT-4 Dominance'
 date = 2023-12-08T08:22:11+05:30
 draft = false
 description = "Google has launched its much-anticipated Gemini model, entering the fierce battlefield of artificial intelligence against the reigning champion, GPT-4. The great AI war of 2023 has taken an unexpected twist, leaving tech enthusiasts on the edge of their seats."
