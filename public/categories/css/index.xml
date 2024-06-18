@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS on Cyberscourge Hub | Tech Insights for the Digital Age</title>
+    <link>http://localhost:1313/categories/css/</link>
+    <description>Recent content in CSS on Cyberscourge Hub | Tech Insights for the Digital Age</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Nov 2023 19:32:31 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Simple To-Do List Web App with HTML, CSS, and JavaScript</title>
+      <link>http://localhost:1313/posts/building-a-simple-todo-list/</link>
+      <pubDate>Fri, 24 Nov 2023 19:32:31 +0530</pubDate>
+      <guid>http://localhost:1313/posts/building-a-simple-todo-list/</guid>
+      <description>Building a Simple To-Do List Web App with HTML, CSS, and JavaScript Are you a beginner in web development and want to create a practical project to enhance your skills? In this step-by-step tutorial, we&amp;rsquo;ll guide you through building a simple to-do list web app using the fundamental trio: HTML, CSS, and JavaScript.&#xA;Step 1: Set Up Your Project Create a new project folder and set up the basic structure:</description>
+    </item>
+  </channel>
+</rss>

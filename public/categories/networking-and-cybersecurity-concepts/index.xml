@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networking and Cybersecurity Concepts on Cyberscourge Hub | Tech Insights for the Digital Age</title>
+    <link>http://localhost:1313/categories/networking-and-cybersecurity-concepts/</link>
+    <description>Recent content in Networking and Cybersecurity Concepts on Cyberscourge Hub | Tech Insights for the Digital Age</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Nov 2023 08:12:07 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/networking-and-cybersecurity-concepts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learn About Networking Devices:Routers and Access Points(Networking Concepts - 3)</title>
+      <link>http://localhost:1313/posts/network-devices/</link>
+      <pubDate>Thu, 30 Nov 2023 08:12:07 +0530</pubDate>
+      <guid>http://localhost:1313/posts/network-devices/</guid>
+      <description>In our exploration of networking concepts, it&amp;rsquo;s time to shine a spotlight on two essential components that form the backbone of network infrastructure—Routers and Access Points. Let&amp;rsquo;s delve into their roles, differences, and how they collaborate to create seamless connectivity.&#xA;Routers: Navigating Data Traffic What is a Router? TP-Link Archer AX50 router&#xA;A router is a fundamental networking device responsible for directing data traffic between different networks. Whether it&amp;rsquo;s your home network, a corporate setup, or the vast expanse of the internet, routers play a pivotal role in ensuring data reaches its destination efficiently through the fastest and easiest route.</description>
+    </item>
+    <item>
+      <title>How to Divide a Network Into Subnets With an Example (Networking Concepts - 2)</title>
+      <link>http://localhost:1313/posts/how-to-divide-a-network-into-subnets/</link>
+      <pubDate>Mon, 27 Nov 2023 16:26:44 +0530</pubDate>
+      <guid>http://localhost:1313/posts/how-to-divide-a-network-into-subnets/</guid>
+      <description>How to Divide a Network into Subnets - With an Example (Networking Concepts - 2) Greetings, network enthusiasts, and welcome back to the CyberScourge Hub! Today, we take you on a journey deep into the art of subnetting. Join us as we discuss the methods of dividing the IP space for our example company ByteCo&amp;rsquo;s departments which are the Development, Security, Finance and Operations departments. Let the subnetting adventure begin! First of all check out our first article in Networking concepts and Cyber Security Concepts to get a basic understanding on what IP is and what a subnet is.</description>
+    </item>
+    <item>
+      <title>Understanding IP Addresses and Subnetting (Networking Concepts - 1)</title>
+      <link>http://localhost:1313/posts/understanding-ip-and-subnetting/</link>
+      <pubDate>Sun, 26 Nov 2023 13:43:47 +0530</pubDate>
+      <guid>http://localhost:1313/posts/understanding-ip-and-subnetting/</guid>
+      <description>Understanding IP Addresses and Subnetting Welcome to the first post in our Networking and Cyber Security Concepts series! In this installment, we&amp;rsquo;ll give you a basic understanding about the fundamental building blocks of networking: IP addresses and subnetting.&#xA;What is an IP Address? An IP address, or Internet Protocol address, is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication. It serves two main purposes: host or network interface identification and location addressing.</description>
+    </item>
+  </channel>
+</rss>

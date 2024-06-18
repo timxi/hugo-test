@@ -1,0 +1,77 @@
+{{define "main"}}
+
+
+<div class="list">
+ 
+  {{/*  <div class="container-featured">
+   
+   
+  <div class="posts">
+  
+    {{ range where .Data.Pages "Params.featured" "==" true }}
+   <div class="posts__item">
+      <div class="posts__image">
+        <img src={{.Params.imageBig}}  alt={{.Params.title}}>
+      </div>
+      
+      <div class="posts__information">
+        <div class="listItemCategories categoryMain">
+    {{ range (.GetTerms "categories") }}
+    <a href={{ .Permalink}} class="listItemCategory">{{ .Name }}</a>
+    {{end}}
+  </div>
+        <div class="posts__date">
+          {{dateFormat .Site.Params.dateFormat .Date}}
+        </div>
+        <div class="posts__title">
+          <a href={{.Permalink}}>{{.Params.Title}}</a>
+        </div>
+        
+        
+      </div>
+      
+    </div>
+    
+  {{ end }}  
+    
+    
+     
+  </div>
+</div>  */}}
+
+  
+  <div class="category-sort">
+    <h3>Sort by Category:</h3>
+    
+    {{range $.Site.Taxonomies.categories.ByCount }}
+<a href="/categories/{{.Name}}" class="category-list-item">
+   {{ .Name}}<small>({{.Count}})</small>
+</a>
+{{end}}
+  </div>
+  
+  {{range .Paginator.Pages}}
+  <div class="listItem"><img src={{ .Params.image}} alt={{ .Title}} class="listItemImage" loading="lazy"/>
+  <div class="listItemText">
+    <h1 class="listItemTitle">
+    <a href={{.Permalink}}>{{.Title}}</a>
+  </h1>
+  <p class="listItemDesc">{{ .Params.description}}</p>
+  <div class="listItemDetail">
+    <img src={{.Params.avatar}} loading="lazy" alt="" class="listItemAvatar">
+    <span>{{ range ( .GetTerms "authors")}}
+        <a href={{.Permalink}}>{{.Name}}</a>
+      {{end}}</span>
+    <time>{{dateFormat .Site.Params.dateFormat .Date}}</time>
+  </div>
+  <div class="listItemCategories">
+    {{ range (.GetTerms "categories") }}
+    <a href={{ .Permalink}} class="listItemCategory">{{ .Name }}</a>
+    {{end}}
+  </div>
+</div>
+</div>
+  {{end}}
+  {{template "_internal/pagination.html" .}}
+</div>
+{{end}}

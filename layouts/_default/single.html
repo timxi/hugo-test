@@ -1,0 +1,48 @@
+{{define "main"}}
+<div class="single">
+    <div class="singleHead">
+        <div class="singleHeadTexts">
+            <h1 class="singleHeadTitle">{{.Title}}</h1>
+            <p class="singleHeadDesc">{{.Params.description}}</p>
+            <div class="singleHeadDetail">
+                <img src={{.Params.avatar}} loading="lazy" alt="" class="singleAvatar">
+                <span>{{ range (.GetTerms "authors")}}
+                    <a href={{.Permalink}}>{{.Name}}</a>
+                    {{end}}
+                </span >
+                {{ range (.GetTerms "categories")}}
+                    <a href={{.Permalink}} class="singleCategory">{{.Name}}</a>
+                    {{end}}
+                <div class="link-cat">
+                    {{ range (.GetTerms "categories")}}
+                    <a href={{.Permalink}} class="singleCategoryMob">{{.Name}}</a>
+                    {{end}}
+                </div>
+            </div>
+            <time>{{ dateFormat .Site.Params.dateFormat .Date}}</time>
+        </div>
+        <img src="{{.Params.imageBig}}" alt={{.Title}} class="singleHeadImage">
+    </div>
+    <div class="singleBottom">
+        <div class="singleContent">{{ .Content}}</div>
+        {{/*  <div class="singleRightBar">
+            {{ partial "rightBar" . }}
+        </div>  */}}
+    </div>
+    <script src="https://giscus.app/client.js"
+        data-repo="randilt/cyberscourge-hub"
+        data-repo-id="R_kgDOKxhNbQ"
+        data-category="General"
+        data-category-id="DIC_kwDOKxhNbc4CbR93"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>
+{{end}}

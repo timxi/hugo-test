@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sandeev on Cyberscourge Hub | Tech Insights for the Digital Age</title>
+    <link>http://localhost:1313/authors/sandeev/</link>
+    <description>Recent content in Sandeev on Cyberscourge Hub | Tech Insights for the Digital Age</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Nov 2023 11:38:44 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/authors/sandeev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Conditionals</title>
+      <link>http://localhost:1313/posts/python-conditionals/</link>
+      <pubDate>Thu, 30 Nov 2023 11:38:44 +0530</pubDate>
+      <guid>http://localhost:1313/posts/python-conditionals/</guid>
+      <description>Python Conditional Statements Greetings programming enthusiasts. Today we are gonna give you a deep dive about python if else statements.&#xA;Before learning about pythons if else statements, you have to be familiar with the usual logical conditions.&#xA;Python Logical Conditions == equal operator. example:&#xA;a = 5 b = 5 print(a == b) #returns true c = 6 d = 9 print(c == d) #returns false &amp;gt; greater than operator &amp;lt; less than operator example:</description>
+    </item>
+  </channel>
+</rss>

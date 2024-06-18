@@ -1,0 +1,13 @@
+baseURL = 'https://blog.randiltharusha.me/'
+languageCode = 'en-us'
+title = 'Cyberscourge Hub | Tech Insights for the Digital Age'
+paginate = 8
+
+[params]
+    dateFormat = "January 2, 2006"
+    description = "Discover coding tips, web development tutorials, programming concepts, and insightful game reviews on our tech blog. Stay updated with the latest in the tech world."
+
+
+[taxonomies]
+    category = "categories"
+    author = "authors"
